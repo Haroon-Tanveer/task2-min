@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: aquamarine;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .cardbox{
+            width: 70rem;
+            height: 30rem;
+            background-color: aliceblue;
+            display: flex;
+
+        }
+        .rightbox img{
+            width: 100vh;
+            height: 100%;
+        }
+        .leftside{
+            display: flex;
+            flex-direction: column;
+            margin: 5rem 5rem;
+        }
+        .rating{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 11rem;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="cardbox">
+            <div class="leftside">
+                <div class="heading">
+                    <h2>Get insights that help your business grow</h2>
+                </div>
+                <div class="para">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque ea, suscipit non quod al possimus eveniet eos minimam recusandae quo dolorum labore, beatae iste, rem est modi.</p>
+                </div>
+                <div class="rating">
+                    <div>
+                        <h2>10K+</h2>
+                        <p>Comments</p>
+                    </div>
+                     <div>
+                        <h2>214</h2>
+                        <p>Paid Users</p>
+                    </div>
+                     <div>
+                        <h2>12M+</h2>
+                        <p>View</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rightbox">
+                <img src="https://i.pinimg.com/564x/70/f7/9f/70f79ff3109e523e3f23271848700d3f.jpg" alt="images">
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
